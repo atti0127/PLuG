@@ -75,14 +75,12 @@ python main.py --eval --resume /path/to/pth --data-path /path/to/imagenet
 If you find this work useful, please cite:
 
 ```bibtex
-@ARTICLE{lee2026plug,
+@article{lee2026plug,
+  title={PLuG: Pairwise Logit Gating for Expressive Attention Modulation in Vision Transformers},
   author={Lee, Dongheon and Yoon, Sangwoo and Kim, Seongsu and Paik, Joonki},
   journal={IEEE Access},
-  title={PLuG: Pairwise Logit Gating for Expressive Attention Modulation in Vision Transformers},
   year={2026},
-  volume={14},
-  pages={87364--87376},
-  doi={10.1109/ACCESS.2026.3701015}
+  publisher={IEEE}
 }
 ```
 
