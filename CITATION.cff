@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use PLuG in your research, please cite the following paper."
+title: "PLuG: Pairwise Logit Gating for Expressive Attention Modulation in Vision Transformers"
+type: software
+authors:
+  - family-names: Lee
+    given-names: Dongheon
+    orcid: "https://orcid.org/0009-0008-4871-6194"
+  - family-names: Yoon
+    given-names: Sangwoo
+  - family-names: Kim
+    given-names: Seongsu
+  - family-names: Paik
+    given-names: Joonki
+    orcid: "https://orcid.org/0000-0002-8593-7155"
+repository-code: "https://github.com/atti0127/PLuG"
+url: "https://doi.org/10.1109/ACCESS.2026.3701015"
+abstract: >-
+  PLuG is a plug-in attention mechanism that learns to amplify or suppress
+  individual query-key interactions by modulating attention logits before
+  softmax in Vision Transformers.
+keywords:
+  - vision transformer
+  - attention mechanism
+  - pairwise logit gating
+  - attention logit modulation
+  - image classification
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Lee
+      given-names: Dongheon
+    - family-names: Yoon
+      given-names: Sangwoo
+    - family-names: Kim
+      given-names: Seongsu
+    - family-names: Paik
+      given-names: Joonki
+  title: "PLuG: Pairwise Logit Gating for Expressive Attention Modulation in Vision Transformers"
+  journal: IEEE Access
+  year: 2026
+  volume: 14
+  start: 87364
+  end: 87376
+  doi: "10.1109/ACCESS.2026.3701015"
+  url: "https://doi.org/10.1109/ACCESS.2026.3701015"
