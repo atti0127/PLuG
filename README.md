@@ -27,7 +27,7 @@ This repository accompanies **PLuG**, a simple plug-in attention mechanism that 
 ## ImageNet-1K Results
 
 | Model | Baseline Top-1 | + PLuG Top-1 | Gain |
-|:--|--:|--:|--:|
+|:--|:--:|:--:|--:|
 | DeiT-Ti | 72.2 | **73.2** | +1.0 |
 | DeiT-S | 79.8 | **80.3** | +0.5 |
 
