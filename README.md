@@ -64,6 +64,12 @@ DeiT-small
 torchrun --nproc_per_node=4 --use_env main.py --model plug_deit_small --batch-size 256 --data-path /path/to/imagenet --output_dir /path/to/save
 ```
 
+## Evaluation
+To evaluate a pre-trained PLuG-DeiT on ImageNet val with a single GPU run:
+```
+python main.py --eval --resume /path/to/pth --data-path /path/to/imagenet
+```
+
 ## Citation
 
 If you find this work useful, please cite:
