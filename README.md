@@ -52,9 +52,12 @@ conda install pytorch==1.13.1 torchvision==0.14.1 pytorch-cuda=11.6 -c pytorch -
 pip install timm==0.6.13
 ```
 
-## Code
+## Training
 
-Implementation and pretrained models will be released in this repository.
+To train PLuG-DeiT on ImageNet on a single node with 4 gpus for 300 epochs run:
+```
+d
+```
 
 ## Citation
 
