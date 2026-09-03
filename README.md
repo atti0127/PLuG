@@ -1,1 +1,1 @@
-PLuG: Pairwise Logit Gating for Expressive Attention Modulation in Vision Transformers
+### PLuG: Pairwise Logit Gating for Expressive Attention Modulation in Vision Transformers
