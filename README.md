@@ -54,14 +54,14 @@ pip install timm==0.6.13
 
 ## Training
 
-To train PLuG-DeiT on ImageNet on a single node with 4 gpus for 300 epochs run:
+To train PLuG-DeiT on ImageNet on a single node with 2 gpus for 300 epochs run:
 DeiT-tiny
 ```
-torchrun --nproc_per_node=4 --use_env main.py --model plug_deit_tiny --batch-size 256 --data-path /path/to/imagenet --output_dir /path/to/save
+torchrun --nproc_per_node=2 --use_env main.py --model plug_deit_tiny --batch-size 256 --accum-iter 2 --data-path /path/to/imagenet --output_dir /path/to/save
 ```
 DeiT-small
 ```
-torchrun --nproc_per_node=4 --use_env main.py --model plug_deit_small --batch-size 256 --data-path /path/to/imagenet --output_dir /path/to/save
+torchrun --nproc_per_node=2 --use_env main.py --model plug_deit_small --batch-size 256 --accum-iter 2 --data-path /path/to/imagenet --output_dir /path/to/save
 ```
 
 ## Evaluation
