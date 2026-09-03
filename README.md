@@ -13,7 +13,7 @@
 This repository accompanies **PLuG**, a simple plug-in attention mechanism that learns to amplify or suppress individual query-key interactions in Vision Transformers. PLuG adds a lightweight gating path alongside standard self-attention and modulates the attention logits before softmax, enabling more expressive token-pair interactions with minimal architectural changes.
 
 <p align="center">
-  <img src="assets/plug_overview.svg" width="900" alt="Overview of Pairwise Logit Gating">
+  <img src="assets/plug.jpg" width="900" alt="Overview of Pairwise Logit Gating">
 </p>
 
 <p align="center"><em>PLuG uses a parallel gating path to modulate each query-key attention logit before softmax.</em></p>
